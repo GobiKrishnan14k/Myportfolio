@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Github } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,6 +28,10 @@ const Contact = () => {
     });
   };
 
+  const openGithub = () => {
+    window.open("https://github.com/GobiKrishnan14k", "_blank");
+  };
+
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -51,7 +55,17 @@ const Contact = () => {
                 </div>
                 <div className="method-info">
                   <span className="method-label">Email</span>
-                  <span className="method-value">gobi.krishnan@email.com</span>
+                  <span className="method-value">krishnangopi590@gmail.com</span>
+                </div>
+              </div>
+              
+              <div className="contact-method" onClick={openGithub} style={{cursor: 'pointer'}}>
+                <div className="method-icon">
+                  <Github size={20} />
+                </div>
+                <div className="method-info">
+                  <span className="method-label">GitHub</span>
+                  <span className="method-value">GobiKrishnan14k</span>
                 </div>
               </div>
               
