@@ -532,10 +532,18 @@ p {
   gap: 24px;
 }
 
+/* Contact Method Hover */
 .contact-method {
   display: flex;
   align-items: center;
   gap: 16px;
+  transition: all 200ms;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.contact-method:hover {
+  background: rgba(0,0,0,0.02);
 }
 
 .method-icon {
