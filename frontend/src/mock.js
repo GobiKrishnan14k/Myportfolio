@@ -3,7 +3,8 @@ export const portfolioData = {
   personal: {
     name: "Gobi Krishnan",
     title: "AIDS Engineering Student",
-    email: "gobi.krishnan@email.com",
+    email: "krishnangopi590@gmail.com",
+    github: "https://github.com/GobiKrishnan14k",
     location: "Student, India",
     status: "Available for opportunities",
     bio: "Passionate about software development with expertise in Python and currently expanding skills in C programming. Focused on building robust applications and solving complex problems through code."
