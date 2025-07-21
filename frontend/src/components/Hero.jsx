@@ -30,9 +30,9 @@ const Hero = () => {
             </button>
             <button 
               className="btn-secondary" 
-              onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}
+              onClick={() => window.open("https://github.com/GobiKrishnan14k", "_blank")}
             >
-              Get In Touch
+              GitHub Profile
             </button>
           </div>
         </div>
